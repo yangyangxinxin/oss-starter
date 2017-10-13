@@ -7,20 +7,20 @@
 > `spring-boot` 自动配置依赖
 
 ```xml
-        <dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-autoconfigure</artifactId>
-		</dependency>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-autoconfigure</artifactId>
+    </dependency>
 ```
 
 > 存储操作依赖（以下简称storageApi）
 
 ```xml
-        <dependency>
-			<groupId>com.luckysweetheart</groupId>
-			<artifactId>storage</artifactId>
-			<version>1.0-SNAPSHOT</version>
-		</dependency>
+    <dependency>
+        <groupId>com.luckysweetheart.starter</groupId>
+        <artifactId>storage</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </dependency>
 ```
 
 > 由于存储storageApi 依赖aliyun-oss-sdk ，每次spring容器启动之前，必须初始化`OSSClient`对象，通过本项目，可在spring-boot项目中简单的使用OSS存储
@@ -30,11 +30,11 @@
 1. 引入starter
 
 ```xml
-        <dependency>
-			<groupId>com.luckysweetheart.starter</groupId>
-			<artifactId>oss-starter</artifactId>
-			<version>1.0-SNAPSHOT</version>
-		</dependency>
+    <dependency>
+        <groupId>com.luckysweetheart.starter</groupId>
+        <artifactId>oss-starter</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </dependency>
 ```
 
 2. `application.xml` or `application.yaml` 文件：
