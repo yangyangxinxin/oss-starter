@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "spring.oss.endpoint",
+      "type": "java.lang.String",
+      "description": "oss endpoint."
+  },
+    {
+      "name": "spring.oss.accessKeyId",
+      "type": "java.lang.String",
+      "description": "oss accessKeyId."
+    },
+    {
+      "name": "spring.oss.secretAccessKey",
+      "type": "java.lang.String",
+      "description": "oss secretAccessKey."
+    }
+] }
