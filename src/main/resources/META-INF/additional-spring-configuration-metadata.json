@@ -3,16 +3,16 @@
     {
       "name": "spring.oss.endpoint",
       "type": "java.lang.String",
-      "description": "oss endpoint."
+      "description": "阿里云OSS endpoint."
   },
     {
-      "name": "spring.oss.accessKeyId",
+      "name": "spring.oss.access-key-id",
       "type": "java.lang.String",
-      "description": "oss accessKeyId."
+      "description": "阿里云OSS accessKeyId."
     },
     {
-      "name": "spring.oss.secretAccessKey",
+      "name": "spring.oss.secret-access-key",
       "type": "java.lang.String",
-      "description": "oss secretAccessKey."
+      "description": "阿里云OSS secretAccessKey."
     }
 ] }

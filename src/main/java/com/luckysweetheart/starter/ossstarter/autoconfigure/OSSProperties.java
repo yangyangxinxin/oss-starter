@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 /**
  * Created by yangxin on 2017/9/30.
  */
-@ConfigurationProperties("spring.oss")
+@ConfigurationProperties(prefix = "spring.oss")
 public class OSSProperties {
 
     private String endpoint = "oss-cn-beijing.aliyuncs.com";
