@@ -14,6 +14,36 @@ public class OSSProperties {
 
     private String secretAccessKey = "LxsRHeOECzxWZPc3F1wkAIGHGtMNlk";
 
+    private int maxConnections = 200;
+
+    private int socketTimeout = 10000;
+
+    private int maxErrorRetry = 3;
+
+    public int getMaxConnections() {
+        return maxConnections;
+    }
+
+    public void setMaxConnections(int maxConnections) {
+        this.maxConnections = maxConnections;
+    }
+
+    public int getSocketTimeout() {
+        return socketTimeout;
+    }
+
+    public void setSocketTimeout(int socketTimeout) {
+        this.socketTimeout = socketTimeout;
+    }
+
+    public int getMaxErrorRetry() {
+        return maxErrorRetry;
+    }
+
+    public void setMaxErrorRetry(int maxErrorRetry) {
+        this.maxErrorRetry = maxErrorRetry;
+    }
+
     public String getEndpoint() {
         return endpoint;
     }
